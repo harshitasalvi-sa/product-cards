@@ -56,19 +56,26 @@
 .buy-btn:disabled{
     background-color: gainsboro;
 }
-.buy-btn:hover {
-  background: #1e40af;
+.buy-btn:disabled:hover{
+  background-color: gainsboro;
 }
-
-button {
-  
+.buy-btn:hover {
+  background-color: #1e40af;
+}
+.top-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.buy-btn{
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
   transition: background-color 0.25s;
 }
-button:hover {
+.buy-btn:hover {
  background-color: #646cff;
  color: #fff;
 }
